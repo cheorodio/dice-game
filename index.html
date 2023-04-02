@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Poppins:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <!---------- modal section for the instruction ------------>
+    <button class="show-modal">?</button>
+
+    <div class="modal hidden">
+      <button class="close-modal">&lt; back to game</button>
+      <div class="instruction">
+        <h4>goal</h4>
+        <p>The first player to reach a global score of 100 wins!</p>
+        <h4>How to play</h4>
+
+        <ol>
+          <li>
+            In each turn, a player rolls the die as many times as they wish.
+            Each result will get accumulated to their 'CURRENT SCORE'.
+          </li>
+          <li>
+            But if the player rolls a 1, all of the current score will get
+            deleted. Then it's the next player's turn.
+          </li>
+          <li>
+            The player can choose to hold their current score by clicking the
+            'HOLD' button. The current score will then get transfered to the
+            global score. Then it's the next player's turn
+          </li>
+          <li>
+            The first player to reach 100 points in the global score wins the
+            game
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <!------------- container for the game ------------->
+    <section class="container">
+      <!-- player 1 section of the container -->
+      <div class="players player1-section player-0 player-active">
+        <h2 class="name player0-name" id="name-0">Enter player name...</h2>
+        <p class="score" id="score-0">10</p>
+        <p class="message hidden-msg0">Opps! 😬 You rolled a 1.</p>
+        <div class="current">
+          <p class="current-label">Current Score</p>
+          <p class="current-score" id="current-0">0</p>
+        </div>
+      </div>
+
+      <!-- player 2 section of the container -->
+      <div class="players player2-section player-1 player-active">
+        <h2 class="name player1-name" id="name-1">Enter player name...</h2>
+        <p class="score" id="score-1">12</p>
+        <p class="message hidden-msg1">Opps! 😬 You rolled a 1.</p>
+        <div class="current">
+          <p class="current-label">Current Score</p>
+          <p class="current-score" id="current-1">0</p>
+        </div>
+      </div>
+
+      <!-- buttons in the middle of the container -->
+      <button class="btn new-game">new game</button>
+      <img src="img/dice-1.png" alt="" class="dice" />
+      <button class="btn roll-dice">Roll dice</button>
+      <button class="btn hold">Hold</button>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
