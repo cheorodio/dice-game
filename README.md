@@ -31,9 +31,9 @@ Once a 1 is rolled the current score will get lost, then switch to the other pla
 <li>A message pop up when a player rolls a 1.</li>
 </ol>
 
-<img width="500" alt="gameplay modal" src="https://user-images.githubusercontent.com/121162907/229342793-71fd7601-77eb-4045-a5bd-2a124960e3b4.png"> <img width="500" alt="change player name" src="https://user-images.githubusercontent.com/121162907/229342818-e66704a0-c8ed-4228-bb6a-1272dcd97d25.png">
-<img width="500" alt="roll die" src="https://user-images.githubusercontent.com/121162907/229342855-c8e97748-01d7-4410-a889-c9858d8aaa07.png"> <img width="500" alt="when 1 is rolled" src="https://user-images.githubusercontent.com/121162907/229342873-b0439abe-1505-408a-b508-ad8528284c8e.png">
-<img width="500" alt="hold a score" src="https://user-images.githubusercontent.com/121162907/229342884-594edb06-d444-4422-90b7-a11a800b3ca4.png"> <img width="500" alt="winner" src="https://user-images.githubusercontent.com/121162907/229342906-7c17de7a-f864-4f75-8615-d3e4d37f0e63.png">
+<img width="400" alt="gameplay modal" src="https://user-images.githubusercontent.com/121162907/229342793-71fd7601-77eb-4045-a5bd-2a124960e3b4.png"> <img width="400" alt="change player name" src="https://user-images.githubusercontent.com/121162907/229342818-e66704a0-c8ed-4228-bb6a-1272dcd97d25.png">
+<img width="400" alt="roll die" src="https://user-images.githubusercontent.com/121162907/229342855-c8e97748-01d7-4410-a889-c9858d8aaa07.png"> <img width="400" alt="when 1 is rolled" src="https://user-images.githubusercontent.com/121162907/229342873-b0439abe-1505-408a-b508-ad8528284c8e.png">
+<img width="400" alt="hold a score" src="https://user-images.githubusercontent.com/121162907/229342884-594edb06-d444-4422-90b7-a11a800b3ca4.png"> <img width="400" alt="winner" src="https://user-images.githubusercontent.com/121162907/229342906-7c17de7a-f864-4f75-8615-d3e4d37f0e63.png">
 
 <h2>Reflection 💭</h2>
 I learnt this from <a href="https://codingheroes.io/"> Jonas Schmedtmann</a>. 
